@@ -1,4 +1,8 @@
-class DirectoryServiceGrailsPlugin {
+package directory.service
+
+import grails.plugins.*
+
+class DirectoryServiceGrailsPlugin extends Plugin {
     def version = "0.11.0-SNAPSHOT"
     def grailsVersion = "2.0 > *"
     def title = "Directory Service Plugin"
