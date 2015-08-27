@@ -1,0 +1,17 @@
+<plugin name='directoryService' version='0.11.1' grailsVersion='2.0 &gt; *'>
+  <type>directory.service.DirectoryServiceGrailsPlugin</type>
+  <issueManagement system='GitHub' url='https://github.com/lr/directory-service/issues' />
+  <title>Directory Service Plugin</title>
+  <grailsVersion>2.0 &gt; *</grailsVersion>
+  <description>Makes interacting with directory (LDAP) servers a breeze</description>
+  <name>directory-service</name>
+  <documentation>http://lr.github.io/directory-service/</documentation>
+  <license>Apache2</license>
+  <developers>[[name:Lucas Rockwell, email:lr@lucasrockwell.com], [name:Soeren Berg Glasius, email:soeren@glasius.dk]]</developers>
+  <scm url='https://github.com/lr/directory-service/' />
+  <version />
+  <resources>
+    <resource>directory.service.Application</resource>
+    <resource>grails.plugins.directoryservice.DirectoryService</resource>
+  </resources>
+</plugin>
